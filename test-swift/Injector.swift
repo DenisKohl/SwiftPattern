@@ -64,11 +64,20 @@ class  Fab1: Factory {
 
 class Fab2: Factory {
     internal func myfunction(text: String) -> String {
-        return "Fab1 \(text)"
+        return "Fab2 \(text)"
     }
 
     
 }
+
+class Fab3: Factory {
+    internal func myfunction(text: String) -> String {
+        return "Fab3 \(text)"
+    }
+    
+    
+}
+
 
 
 
